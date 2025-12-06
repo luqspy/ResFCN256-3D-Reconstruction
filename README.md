@@ -1,6 +1,6 @@
 ## ResFCN256-3D-Reconstruction
 
-ResFCN256-3D-Reconstruction implements a custom deep learning pipeline for dense 3D facial geometry estimation. At its core is a ResFCN256 (Residual Fully Convolutional Network) trained for 100 epochs on a dataset of 63,000 augmented images to perform direct regression of 3D facial coordinates from single 2D inputs. The model outputs a 3D Position Map, a dense matrix where RGB pixel values encode high-fidelity (X,Y,Z) spatial data rather than color intensity. To interpret this raw tensor output, the repository includes a specialized visualization engine (visualize_blob.py) that decodes the abstract position map into a verifiable 3D point cloud, demonstrating the model's ability to capture subtle organic curvature and depth via direct neural regression.
+ResFCN256-3D-Reconstruction implements a custom deep learning pipeline for dense 3D facial geometry estimation. At its core is a ResFCN256 (Residual Fully Convolutional Network) trained for 100 epochs on a dataset of 63,000 augmented images to perform direct regression of 3D facial coordinates from single 2D inputs. The model outputs a 3D Position Map, a dense matrix where RGB pixel values encode high-fidelity (X,Y,Z) spatial data rather than color intensity. To interpret this raw tensor output, the repository includes a specialized visualization engine that decodes the abstract position map into a verifiable 3D point cloud, demonstrating the model's ability to capture subtle organic curvature and depth via direct neural regression.
 
 ## Tools Included
 

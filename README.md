@@ -42,9 +42,9 @@ A production-ready utility to convert 2D images into standard 3D files.
 ├── models/
 │   └── prnet_trained.pth   # The trained Neural Network weights (~54MB)
 │
-├── src/
-│   ├── toply.py     # Streamlit App: Converts 2D Photo -> 3D Model
-│   └── 2D-3D_Visualization.py   # Streamlit App: Visualizes the raw Neural Output
+├── src/app
+│       ├── toply.py     # Streamlit App: Converts 2D Photo -> 3D Model
+│       └── 2D-3D_Visualization.py   # Streamlit App: Visualizes the raw Neural Output
 │  
 │
 └── requirements.txt        # Python dependencies
